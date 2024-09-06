@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/cryptokey"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_input_text"
+        android:autofillHints=""
+        tools:ignore="TextFields"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/encryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_encrypted"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/decryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_decrypted"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_placeholder"
+        android:textSize="18sp"
+        android:gravity="center"/>
+</LinearLayout>
+

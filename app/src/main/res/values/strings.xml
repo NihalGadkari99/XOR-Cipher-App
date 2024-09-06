@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XOR Cipher App</string>
+    <string name="hint_input_text">Enter text to encrypt or decrypt</string>
+    <string name="encrypt_button">Encrypt</string>
+    <string name="decrypt_button">Decrypt</string>
+    <string name="result_encrypted">Encrypt</string>
+    <string name="result_decrypted">Decrypt</string>
+    <string name="result_placeholder">Result will be shown here</string>
+</resources>
